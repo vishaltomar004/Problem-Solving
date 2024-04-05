@@ -1,9 +1,9 @@
 package HomeWork.Tree_4_and_5;
 class Tree {
-    
+
 }
 public class BSTOneChild {
-    boolean hasOnlyOneChild(int pre[], int size) {
+    boolean static hasOnlyOneChild(int pre[], int size) {
         int nextDiff, lastDiff;
  
         for (int i = 0; i < size - 1; i++) {
